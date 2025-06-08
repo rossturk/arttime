@@ -1,0 +1,151 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "zsh": {
+        "pkg-path": "zsh"
+      }
+    },
+    "options": {},
+    "build": {
+      "arttime": {
+        "command": "\n./install.sh -p $out --noupdaterc \n\n"
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "zsh",
+      "broken": false,
+      "derivation": "/nix/store/f2vgm61dhwk8idcyv61rh475k7awlhxd-zsh-5.9.drv",
+      "description": "Z shell",
+      "install_id": "zsh",
+      "license": "MIT-like",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "zsh-5.9",
+      "pname": "zsh",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T04:28:44.810297Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.9",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/k1ljgknnjp6yzfhmwsa74dp81c849qsn-zsh-5.9-doc",
+        "info": "/nix/store/008mcy0dydbfr3nsk24p6d6cbalhhkq4-zsh-5.9-info",
+        "man": "/nix/store/r6983wp25qnwiy2qqii7g174bicjkam7-zsh-5.9-man",
+        "out": "/nix/store/1qyfxzg1p1ggn727lh1ryi0zxvg2mrgj-zsh-5.9"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zsh",
+      "broken": false,
+      "derivation": "/nix/store/qnwp3s55dw8rh5wlvx01hqgv2v0m6y00-zsh-5.9.drv",
+      "description": "Z shell",
+      "install_id": "zsh",
+      "license": "MIT-like",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "zsh-5.9",
+      "pname": "zsh",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T04:50:39.282757Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.9",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/bkqscn81nax6h03bkxsxdkp2inssdjv1-zsh-5.9-doc",
+        "info": "/nix/store/4hsc5y5az6vbr9f2aarvs5lclz3r3rwl-zsh-5.9-info",
+        "man": "/nix/store/v5pdfkfbsxhmm4kq9ygc4gv239sbbzx9-zsh-5.9-man",
+        "out": "/nix/store/9w7kl0zy1myx5dg75jgd79ycnx8liycm-zsh-5.9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zsh",
+      "broken": false,
+      "derivation": "/nix/store/ki1ajqbm18dvxi19v39p02zwnaymrb5j-zsh-5.9.drv",
+      "description": "Z shell",
+      "install_id": "zsh",
+      "license": "MIT-like",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "zsh-5.9",
+      "pname": "zsh",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T05:10:02.183587Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.9",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/f37ph5lnz60rg9q92ii0s4slydzwmbyc-zsh-5.9-doc",
+        "info": "/nix/store/3gxsdi7zl0aqn1can0wsmq3xfgw19zp5-zsh-5.9-info",
+        "man": "/nix/store/1lvqzpb94bl4r9jx0dz798mb7ws3ynhm-zsh-5.9-man",
+        "out": "/nix/store/2x7avb1w9fi0jacrh5jn04j3554myswk-zsh-5.9"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zsh",
+      "broken": false,
+      "derivation": "/nix/store/1ww7g5wxrw4ac53qc5padgry1parb8fz-zsh-5.9.drv",
+      "description": "Z shell",
+      "install_id": "zsh",
+      "license": "MIT-like",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "name": "zsh-5.9",
+      "pname": "zsh",
+      "rev": "d3d2d80a2191a73d1e86456a751b83aa13085d7d",
+      "rev_count": 811203,
+      "rev_date": "2025-06-05T17:19:09Z",
+      "scrape_date": "2025-06-07T05:33:45.690639Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.9",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/cdvjh5vr3f3zw58yachi7668ygf3bgyi-zsh-5.9-doc",
+        "info": "/nix/store/hr8q5550hkjzr2rm513jhfp4czsqwpsr-zsh-5.9-info",
+        "man": "/nix/store/m9c19vp3d72ihg1vbxj6i3n0jvrq6rc1-zsh-5.9-man",
+        "out": "/nix/store/4kaqyfdyq0mj70r3q8ms2zyahdz7zggp-zsh-5.9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

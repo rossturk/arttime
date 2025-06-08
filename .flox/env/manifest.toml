@@ -1,0 +1,12 @@
+version = 1
+
+[build]
+arttime.command = '''
+
+./install.sh -p $out --noupdaterc 
+
+'''
+
+[install]
+zsh.pkg-path = "zsh"
+
