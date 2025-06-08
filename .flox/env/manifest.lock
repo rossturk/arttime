@@ -10,7 +10,9 @@
     "options": {},
     "build": {
       "arttime": {
-        "command": "\n./install.sh -p $out --noupdaterc \n\n"
+        "command": "./install.sh -p $out --noupdaterc",
+        "version": "20250608",
+        "description": "A TUI that blends the beauty of ASCII art with a clock / timer / time manager"
       }
     }
   },

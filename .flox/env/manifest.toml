@@ -1,11 +1,9 @@
 version = 1
 
 [build]
-arttime.command = '''
-
-./install.sh -p $out --noupdaterc 
-
-'''
+arttime.command = "./install.sh -p $out --noupdaterc"
+arttime.description = "A TUI that blends the beauty of ASCII art with a clock / timer / time manager"
+arttime.version = "20250608"
 
 [install]
 zsh.pkg-path = "zsh"
